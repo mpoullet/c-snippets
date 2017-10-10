@@ -1,3 +1,5 @@
+/* See: https://stackoverflow.com/a/19487645/496459 */
+
 #include <stddef.h>
 
 #define UNUSED(x) (void)(x)
