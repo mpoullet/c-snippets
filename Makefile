@@ -12,7 +12,8 @@ LDFLAGS := -lpthread
 targets :=\
 	array_len \
 	strange_main_twitter \
-	function_pointer
+	function_pointer \
+	egg_dropping_puzzle
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
