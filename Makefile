@@ -11,6 +11,7 @@ LDFLAGS := -lpthread
 
 targets :=\
 	array_len \
+	array_index \
 	strange_main_twitter \
 	function_pointer \
 	egg_dropping_puzzle
