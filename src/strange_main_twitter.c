@@ -4,7 +4,8 @@
 
 #define UNUSED(x) (void)(x)
 
-int main(int argc, const char* argv[printf("Hello, World!\n")]) {
-  UNUSED(argc);
-  UNUSED(argv);
+int main (int argc, const char* argv[printf ("Hello, World!\n")])
+{
+    UNUSED (argc);
+    UNUSED (argv);
 }

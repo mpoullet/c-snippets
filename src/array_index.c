@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-int main(void)
+int main (void)
 {
-    enum LENGTH { LENGTH = 10 };
+    enum LENGTH
+    {
+        LENGTH = 10
+    };
     int array[LENGTH];
 
-    int array_len = sizeof(array) / sizeof(array[0]);
+    int array_len = sizeof (array) / sizeof (array[0]);
 
-    printf("array_len=%d\n", array_len);
+    printf ("array_len=%d\n", array_len);
     return 0;
 }

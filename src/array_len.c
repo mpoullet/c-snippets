@@ -3,10 +3,11 @@
 
 #include <stdio.h>
 
-int main(void) {
-  int array[] = {0, 0, 0};
-  int array_len = sizeof(array) / sizeof(array[0]);
+int main (void)
+{
+    int array[] = {0, 0, 0};
+    int array_len = sizeof (array) / sizeof (array[0]);
 
-  printf("array_len=%d\n", array_len);
-  return 0;
+    printf ("array_len=%d\n", array_len);
+    return 0;
 }
