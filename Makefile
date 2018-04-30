@@ -14,7 +14,8 @@ targets :=\
 	array_index \
 	strange_main_twitter \
 	function_pointer \
-	egg_dropping_puzzle
+	egg_dropping_puzzle \
+	recurse_largest_element
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
