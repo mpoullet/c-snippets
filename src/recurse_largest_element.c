@@ -1,3 +1,5 @@
+/* https://www.quora.com/In-C-language-is-it-possible-to-find-the-largest-of-n-numbers-without-using-an-array-and-loop-If-so-how */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
