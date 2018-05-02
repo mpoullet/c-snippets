@@ -4,11 +4,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-typedef struct list_t
+struct list_t
 {
     int value;
     struct list_t* next;
-} list_t;
+};
+
+typedef struct list_t list_t;
 
 list_t* make_list (int n)
 {
