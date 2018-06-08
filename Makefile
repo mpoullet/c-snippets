@@ -13,9 +13,11 @@ targets :=\
 	array_len \
 	array_index \
 	strange_main_twitter \
-	function_pointer \
+	function_pointer01 \
+	function_pointer02 \
 	egg_dropping_puzzle \
-	recurse_largest_element
+	recurse_largest_element \
+	precedence01
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
