@@ -6,7 +6,7 @@ create_obj_dir := $(shell mkdir -p $(OBJDIR))
 SRCDIR := ./src
 
 CPPFLAGS := -I ./
-CFLAGS := -std=c11 -Wall -Wextra -Wshadow -pedantic
+CFLAGS := -std=c11 -Wall -Wextra -Wshadow -pedantic -g
 LDFLAGS := -lpthread
 
 targets :=\
@@ -17,7 +17,8 @@ targets :=\
 	function_pointer02 \
 	egg_dropping_puzzle \
 	recurse_largest_element \
-	precedence01
+	precedence01 \
+	pahole
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
