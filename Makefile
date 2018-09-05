@@ -18,7 +18,9 @@ targets :=\
 	egg_dropping_puzzle \
 	recurse_largest_element \
 	precedence01 \
-	pahole
+	pahole \
+	byte_ordering \
+	bswap
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
