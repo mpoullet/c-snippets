@@ -20,7 +20,8 @@ targets :=\
 	precedence01 \
 	pahole \
 	byte_ordering \
-	bswap
+	bswap \
+	access_string
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459
