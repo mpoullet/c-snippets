@@ -6,7 +6,7 @@ create_obj_dir := $(shell mkdir -p $(OBJDIR))
 SRCDIR := ./src
 
 CPPFLAGS := -I ./
-CFLAGS := -std=c11 -Wall -Wextra -Wshadow -pedantic -g
+CFLAGS := -std=c11 -Wall -Wextra -Wshadow -Wpedantic -pedantic-errors -g
 LDFLAGS := -lpthread
 
 targets :=\
