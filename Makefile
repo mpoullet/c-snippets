@@ -6,7 +6,7 @@ create_obj_dir := $(shell mkdir -p $(OBJDIR))
 SRCDIR := ./src
 
 CPPFLAGS := -I ./
-CFLAGS := -std=c18 -Wall -Wextra -Wshadow -Wpedantic -pedantic-errors -g
+CFLAGS := -std=c18 -Wall -Wextra -Wshadow -Wpedantic -pedantic-errors -Wstrict-prototypes -g
 LDFLAGS := -lpthread
 
 targets :=\
@@ -21,7 +21,8 @@ targets :=\
 	pahole \
 	byte_ordering \
 	bswap \
-	access_string
+	access_string \
+	getopt01
 
 # shellcheck all shell scripts
 # https://stackoverflow.com/a/5423310/496459

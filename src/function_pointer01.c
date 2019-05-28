@@ -4,15 +4,12 @@
 
 #define UNUSED(x) (void)(x)
 
-void* get_pointer () { return NULL; }
+void* get_pointer (void) { return NULL; }
 
-int main (int argc, char* argv[])
+int main (void)
 {
-    UNUSED (argc);
-    UNUSED (argv);
-
-    void* (*function_pointer_1) ();
-    void* (*function_pointer_2) ();
+    void* (*function_pointer_1) (void);
+    void* (*function_pointer_2) (void);
 
     /* warning: ISO C forbids assignment between function pointer and ‘void *’
    * [-Wpedantic] */

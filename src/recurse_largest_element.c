@@ -38,7 +38,7 @@ int list_max (list_t* list)
     return max_rest > list->value ? max_rest : list->value;
 }
 
-int main ()
+int main (void)
 {
     srand (time (0));
 

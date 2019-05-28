@@ -50,7 +50,7 @@ int eggDrop (int n, int k)
 }
 
 /* Driver program to test to pront printDups*/
-int main ()
+int main (void)
 {
     int n = 2, k = 36;
     printf (

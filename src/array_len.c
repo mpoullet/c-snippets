@@ -1,4 +1,4 @@
-/* for cstd in c89 c90 c99 c11; do gcc -std=${cstd} -Wall -Wextra -pedantic -o
+/* for cstd in c89 c90 c99 c11 c18; do gcc -std=${cstd} -Wall -Wextra -pedantic -o
  * array_len array_len.c && ./array_len ; done */
 
 #include <stdio.h>
